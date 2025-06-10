@@ -58,7 +58,7 @@ export class FooterComponent {
    salesOrder(){
     window.location.href=window.location.origin+"/projex/sale-order-management/index.aspx";
   }
-crm(){
+ crm(){
     window.location.href=window.location.origin+"/projex/crm/index.aspx";
   }
   login(){
