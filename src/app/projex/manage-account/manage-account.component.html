@@ -1,0 +1,221 @@
+<div class="container-fluid" style="/*background: #ffe3d6*/ background:#f2ffee">
+    <div class="container">
+        <div class="row top-container">
+
+            <div class="col-lg-5 text-center left">
+                <h2 style="font-weight: bold">Manage Account – ProjexERP
+                </h2>
+                <h2><small>Take control of your ERP experience – manage users, secure access, and personalize your
+                        workspace for peak productivity.Streamline your operations with role-based access and real-time
+                        activity monitoring.
+
+                    </small>
+                </h2>
+                <p class="clear text-center d-flex justify-content-center">
+                    <a (click)="registration()" class="banner-btn">Free Trial</a>
+                    <a runat="server" ID="help" href="javascript:void(0)" (click)="scrollToKnowMore()"
+                        class="banner-btn">Know More</a>
+                </p>
+            </div>
+            <div class="pull-right">
+                <!-- <
+                            src="../js/manage-account.json"
+                            background="transparent"
+                            speed="1"
+                            class="lottie"
+                         
+                            loop 
+                            autoplay>
+            </player> -->
+
+
+                <ng-lottie [options] ="options" class="lottie"></ng-lottie>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center" style="font-weight: 600">Key Benefits of Manage Account
+            </h2>
+            <div class="col-lg-12 boxes" style="margin-bottom: 10px;">
+                <div class="box" #scrollBox>
+                    <div style="overflow: hidden;border-radius: 15px 15px 0 0;"> <img src="images/centralized-user.jpg" alt="centralized user control" />
+                </div>
+                <div class="detail">
+
+                    <h4>Centralized User Control</h4>
+                    <p>
+                        Users can update their details, set preferences, and manage access — all from one place.
+                        This reduces dependency on admin teams for basic account updates and streamlines daily
+                        operations.
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="box" #scrollBox>
+<div style="overflow: hidden;border-radius: 15px 15px 0 0;">
+                <img src="images/security-level.png" alt="Enhanced Security" />
+</div>
+                <div class="detail">
+
+                    <h4>Enhanced Security</h4>
+                    <p>
+                        With built-in tools like password management, Two-Factor Authentication (2FA), and activity
+                        tracking, ProjexERP ensures that every user has a secure environment tailored to their role.
+                        It protects sensitive business data and reduces the risk of unauthorized access.
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="box" #scrollBox>
+<div style="overflow: hidden;border-radius: 15px 15px 0 0;">
+                <img src="images/RBAC.jpg" alt="Role-Based Access" />
+</div>
+                <div class="detail">
+
+                    <h4>Role-Based Access and Accountability</h4>
+                    <p>
+                        The ability to assign roles and permissions ensures that users only access data relevant to
+                        their job functions. This minimizes errors, strengthens data integrity, and enhances
+                        accountability within the system.
+                    </p>
+                </div>
+
+
+            </div>
+            <div class="box" #scrollBox>
+<div style="overflow: hidden;border-radius: 15px 15px 0 0;">
+                <img src="images/support.jpg" alt="Support Access" />
+</div>
+                <div class="detail">
+
+                    <h4>Seamless Support Access</h4>
+                    <p>
+                        Quick access to help resources and support channels means users spend less time solving
+                        issues and more time doing their work — improving overall system usability.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="container-fluid">
+    <div class="container">
+        <div class="row" id="knowMore">
+            <h2 class="text-center" style="font-weight: 600">Core Capabilities & Enhancements in Manage Account
+
+            </h2>
+            <div class="col-lg-12 boxes" style="margin-bottom: 50px;">
+                <div class="box"  #scrollBox>
+<div style="overflow: hidden;border-radius: 15px 15px 0 0;">
+                    <img src="images/empower.png" alt="Empower" />
+</div>
+                    <div class="detail">
+
+                        <h4>Empower Every Click</h4>
+                        <p>
+                            Managing your account isn't just about keeping your info up to date — it's about unlocking
+                            the full potential of your ERP workspace. ProjexERP gives you control, visibility, and
+                            flexibility, all in one secure location.
+
+
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="box"  #scrollBox>
+<div style="overflow: hidden; border-radius: 15px 15px 0 0;">
+                    <img src="images/dynamic-role.jpg" alt="Dynamic Role " />
+</div>
+                    <div class="detail">
+
+                        <h4>Dynamic Role Management</h4>
+                        <p>
+                            Easily switch between multiple roles (e.g., Admin, Manager, Operator) based on your
+                            responsibilities—perfect for users who wear multiple hats in growing organizations.
+
+
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="box"  #scrollBox>
+<div style="overflow: hidden; border-radius: 15px 15px 0 0;">
+                    <img src="images/smart-access.png" alt="Smart Access" />
+</div>
+                    <div class="detail">
+
+                        <h4>Smart Access Insights</h4>
+                        <p>
+                            Track where your account is used, when it was accessed, and what actions were performed —
+                            all in real time. Stay informed. Stay in control.
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="box"  #scrollBox>
+<div style="overflow: hidden; border-radius: 15px 15px 0 0;">
+                    <img src="images/dashboard-control.jfif" alt="Personalized Dashboard Controls" />
+</div>
+                    <div class="detail">
+
+                        <h4>Personalized Dashboard Controls</h4>
+                        <p>
+                            Design your ERP workspace your way. Pin favorite modules, rearrange widgets, and focus only
+                            on what matters most to your role.
+
+
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="box"  #scrollBox>
+<div style="overflow: hidden; border-radius: 15px 15px 0 0;">
+                    <img src="images/Sync.jpg" alt="Cross-Device Sync" />
+</div>
+                    <div class="detail">
+
+                        <h4>Cross-Device Sync</h4>
+                        <p>
+                            Seamless experience across desktop, tablet, and mobile. Update settings on one device and
+                            see them reflected instantly across others.
+
+
+                        </p>
+                    </div>
+
+
+                </div>
+                <div class="box"  #scrollBox>
+<div style="overflow: hidden; border-radius: 15px 15px 0 0;">
+                    <img src="images/security-check.jfif" alt="Security Health Check" />
+</div>
+                    <div class="detail">
+
+                        <h4>Security Health Check</h4>
+                        <p>
+                            A built-in “Security Score” shows how strong your account settings are (e.g., password
+                            strength, 2FA, recovery options). Get suggestions to improve your security instantly.
+
+
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

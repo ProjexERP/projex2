@@ -1,0 +1,249 @@
+.hidden {
+  opacity: 0;
+  display: block !important;
+}
+.payroll-banner .col-lg-12 {
+  width: 51%;
+}
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+/* .container:first-child{
+    padding-top: 110px;
+} */
+.visible {
+  opacity: 1;
+}
+.animated .col-md-6 {
+  background: #e7e7e7;
+  padding: 10px 40px;
+  margin: 15px 1%;
+  width: calc(50% - 30px);
+  border-radius: 20px;
+  box-shadow: 2px 4px 9px;
+}
+.animated .col-md-12 {
+  background: #e7e7e7;
+  padding: 10px 40px;
+  margin: 8px 1%;
+  /* width: 558px; */
+  border-radius: 20px;
+  box-shadow: 2px 4px 9px;
+  float: left;
+}
+h3,
+.h3 {
+  font-size: 24px;
+}
+.cta-btn {
+  background: #1c5526;
+  font-size: 24px;
+  color: #fff;
+  border: 1px solid #86b170;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  padding: 5px 17px;
+  margin: 3px;
+}
+
+.cta-btn:hover,
+.cta-btn:active {
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+}
+
+.payroll-banner {
+  background: url("/images/payroll-banner.png") no-repeat top center;
+  background-size: 100% 100%;
+}
+
+.payroll-banner h2,
+.payroll-banner h3 small {
+  color: white;
+  text-shadow: 1px 3px 2px #000;
+}
+
+.btn-pack {
+  margin: 13px 0;
+}
+
+/*.alternateBG {
+            background: #FCAAAA;
+        }*/
+
+@media screen and (min-width: 767px) {
+  .features {
+    padding: 1px 3% 35px;
+  }
+
+  .feature {
+    width: calc(50% - 30px);
+    margin-left: 8px;
+    margin-right: 9px;
+    float: left;
+  }
+
+  .feature:nth-of-type(2n + 1) {
+    clear: left;
+  }
+
+  .bottomList ul {
+    float: left;
+    width: 31%;
+    margin: 10px 2% 0 0;
+  }
+
+  .bottomList ul:nth-of-type(3n + 1) {
+    clear: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .feature {
+    width: calc(26% - 30px);
+    /*width:300px;*/
+  }
+
+  .feature:nth-of-type(2n + 1) {
+    clear: none;
+  }
+}
+
+.feature {
+  border-radius: 17px;
+  background: #edffe8;
+  box-shadow: 2px 3px 10px gray;
+  text-align: center;
+  margin-top: 73px;
+  position: relative;
+  /*width:300px;*/
+}
+
+/*.feature.expanded .feature-head {
+                box-shadow: 0px 10px 19px #928E8E;
+            }*/
+
+.feature.expanded .feature-detail {
+  height: auto;
+  z-index: 999;
+  /*box-shadow: 0px 10px 19px #928E8E;*/
+  overflow: visible;
+  min-height: 290px;
+  margin-bottom: 0;
+}
+
+.feature-detail {
+  /*background-color: #efefef;
+            border-top: 3px solid #ccc;*/
+  padding: 3px 13px 10px;
+  height: 260px;
+  font-size: 13px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.feature-detail::after {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  /*background: #efefef;*/
+  bottom: 0;
+  left: 0;
+}
+.feature-read-more {
+  -webkit-transform: translateX(-50%) translateY(50%);
+  -ms-transform: translateX(-50%) translateY(50%);
+  transform: translateX(-50%) translateY(50%);
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  padding: 2px 15px;
+  z-index: 99;
+}
+
+.feature-head {
+  position: relative;
+}
+.feature-head img {
+  width: 100px;
+  border: 8px solid white;
+  border-radius: 50%;
+  /* margin-bottom: -50px; */
+  /*position: absolute;*/
+  left: 100px;
+  top: -51px;
+  margin-top: -53px;
+  display: inline;
+  box-shadow: 1px 3px 23px #959595;
+}
+.feature-head img:hover {
+  animation: rotate360 0.7s ease-in-out forwards;
+  border: 8px solid #408556;
+}
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 980px) {
+  .animated .col-md-6 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .payroll-banner {
+    background-image: url("/images/responsive-payroll.png");
+  }
+
+  .payroll-banner .col-lg-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 402px) {
+  .btn-success {
+    font-size: 12px;
+  }
+  .animated .col-md-6 {
+    padding: 5px 13px;
+  }
+  .row.post {
+    margin: 10px 5px !important;
+  }
+  .col-lg-12.features.clearfix {
+    padding: 5px 7px !important;
+  }
+  .feature {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .feature-detail {
+    padding: 3px 9px 10px !important;
+  }
+  .animated .col-md-12 {
+    padding: 5px 13px;
+  }
+}
+@media (max-width: 490px) {
+  .cta-btn {
+    margin: 3px;
+    width: 100px;
+    font-size: 15px;
+    height: 35px;
+    padding: 5px;
+  }
+}
+@media (min-width: 510px) and (max-width: 768px) {
+  .feature {
+    width: calc(50% - 20px);
+    /* width: 309px; */
+  }
+}

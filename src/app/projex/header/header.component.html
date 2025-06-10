@@ -1,0 +1,139 @@
+
+<div>
+<div id="headerlayout" class="top-nav ">
+
+    <div class="columns">
+        <!-- <div class="column">
+            <div id="l3" runat="server" visible="false" class="text-oneline">
+                <Label ID="lblwelcome" runat="server" Text="Welcome" Style="color: #fff;"></Label>
+                <Button ID="lnkLogout" Font-Bold="true" ForeColor="white" runat="server" Visible="false" Text="[Logout]"
+                    OnClick="lnkLogout_Click"></Button>
+            </div>
+        </div> -->
+        <!-- header.component.html -->
+        <div class="column">
+            <div *ngIf="username" class="text-oneline" id="l3">
+                <label style="color: #fff;">Welcome {{ username }}</label>
+                <button class="logout-button" (click)="logout()"
+                    style="color: white; font-weight: bold; background: transparent; border: none; cursor: pointer;">
+                    [Logout]
+                </button>
+            </div>
+        </div>
+
+        <div class="column">
+            <ul class="list-inline nomargin">
+                <li id="l1" runat="server">
+                    <a runat="server" ID="loginLink" routerLink="/login" (click)="login()">Login</a>
+                </li>
+                <li id="l2" runat="server">
+                    <a runat="server" ID="regLink" routerLink="/registration" (click)="registration()">Registration</a>
+                </li>
+
+                <li><a runat="server" ID="help" routerLink="/under_construction" (click)="help()">Help</a> </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="container-fluid" id="navigation" style="background:white">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar ">
+                <div>
+                    <!-- Brand and toggle get grouped for better mobile display -->
+
+                    <div class="logo col-lg-2" style="float:left;">
+                        <a id="logoLink" routerLink="/angular/index">
+                            <img srcset="images/projexERP-logo.png" height="60" alt="projex ERP"
+                                style="padding-top:3px;" />
+                        </a>
+
+                    </div>
+                    <div class="">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                style="background: #fff;" data-target="#bs-example-navbar-collapse-1"
+                                aria-expanded="false">
+                                <span class="icon-bar" style="background: #333;"></span>
+                                <span class="icon-bar" style="background: #333;"></span>
+                                <span class="icon-bar" style="background: #333;"></span>
+                            </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse d-flex align-items-center justify-content-center"
+                            id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a ID="home" runat="server" routerLink="/angular/index"><i
+                                            class="glyphicon glyphicon-home"></i></a></li>
+                                <li><a ID="payroll" routerLink="/angular/payroll/index" runat="server">Pay Roll</a></li>
+                                <li class="product-menu"><a ID="erp" runat="server">Product
+                                        <span class="dropdown-toggle-icon">
+                                            <img srcset="images/icon-sort-down.png" class="icon-toggle icon-down"
+                                                alt="Toggle" />
+                                            <img srcset="images/icon-sort-up.png" class="icon-toggle icon-up"
+                                                alt="Toggle" style="display: none;" />
+                                        </span>
+                                    </a>
+                                    <div class="nav navbar-sub">
+
+                                        <div class="d-flex ">
+
+                                            <div class="half-div">
+
+                                                <ul>
+                                                    <li class="p-15"><a ID="HyperLink67" runat="server"
+                                                            routerLink="/angular/product/prodandplan">
+                                                            <p class="m-0">Product & Features</p>
+                                                        </a></li>
+
+                                                    <li class="p-15"><a ID="HyperLink34" runat="server"
+                                                            routerLink="/angular/product/Planandpricing">
+                                                            <p class="m-0">Pricing</p>
+                                                        </a></li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a ID="manAccount" runat="server" routerLink="/angular/manage-account"
+                                        >Manage
+                                        Accounting</a></li>
+                                <li><a ID="hrm" runat="server" routerLink="/angular/hrm">Human
+                                        Resource(HR)</a></li>
+                                <li><a ID="salesOrder" runat="server" routerLink="/angular/sale-order-management/"
+                                       >Sales Ordering</a></li>
+                                <li><a ID="HyperLink4" runat="server" routerLink="/angular/inventory-control-management/"
+                                        >Inventory System</a></li>
+                                <li><a ID="crm" runat="server" routerLink="/crm/" (click)="crm()">CRM</a></li>
+
+                                <li><a ID="HyperLink6" runat="server" routerLink="/contactUs.aspx"
+                                        (click)="contact()">Contact Us</a></li>
+                                <li><a ID="HyperLink3" runat="server" routerLink="/faq.aspx" (click)="faq()">FAQs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+</div>
+
+
+<!--navlayout-->
+
+<div style="position: fixed; bottom: 20px; right: 20px; background: rgba(0 ,0,0,0.5); padding: 10px;" id="moveup">
+    <a href="#headerlayout"><span style="font-size: 25px; color: #fff; cursor: pointer;"
+            class="glyphicon glyphicon-triangle-top"></span>
+    </a>
+
+</div>
+</div>

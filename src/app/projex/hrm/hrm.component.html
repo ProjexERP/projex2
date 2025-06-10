@@ -1,0 +1,292 @@
+<div class="container-fluid hrm">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 top-container" style="gap: 5px;" >
+                <div class="slider text-center col-lg-6" #scrollBox >
+                 
+                  
+                        <h1 style="color: #ffd800;">HRM Service</h1>
+                 
+                        <h4 style="color: rgb(255, 255, 255);">Streamline your HR operations with ProjexERP's powerful HRM module – from recruitment to retirement, all in one place.</h4>
+                
+                    <div class="clear"></div>
+                    <p class="text-center clear d-flex justify-content-center">
+                        <a (click)="registration()" class="banner-btn">Free Trial</a>
+                        <a runat="server" ID="help" href="javascript:void(0)" (click)="scrollToKnowMore()" class="banner-btn">Know More
+                        </a>
+                    </p>
+                </div>
+                <div>
+                    <!-- <lottie-player
+                                src="../js/hrm-animation.json"
+                                background="transparent"
+                                speed="1"
+                                class="lottie"
+                                loop
+                                autoplay>
+            </lottie-player> -->
+                    <ng-lottie [options]="options" class="lottie" ></ng-lottie>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+<div class="container-fluid contentpart" id="knowMore">
+    <div class="container">
+        <div class="row">
+            <div class="slider col-lg-12" #scrollBox >
+                <br />
+
+                <h3 class="text-center" style="font-weight:600;">HUMAN RESOURCE MANAGEMENT (HRM)</h3>
+                <br />
+                <p class="text-center extraline-height">
+                    Human Resource Management (HRM) is a foundational pillar in both private and public sector
+                    organizations. It encompasses a wide range of functions aimed at maximizing employee performance and
+                    satisfaction. HRM involves recruiting and selecting the right talent, onboarding and orientation,
+                    continuous training and skill development, performance evaluations, and managing compensation and
+                    benefits. It also includes maintaining effective labor relations, ensuring workplace safety, and
+                    fostering employee well-being. A well-structured HRM process ensures that an organization can
+                    achieve its strategic objectives by empowering its workforce through proper planning, development,
+                    and support mechanisms.
+                </p>
+                <br />
+                <p class="text-center">
+                    <a runat="server" ID="reg" NavigateUrl="~/registration" class="btn btn-success">Start your free
+                        trial of ProjexERP HRM today.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="alternateBG" style="padding-bottom:10px; background:#fffcf0;margin-top:15px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center" style="font-weight:600;">The Value of Human Resource Management</h2>
+                <p class="text-center extraline-height">A successful organization relies on effective Human Resource
+                    Management to build a skilled workforce. Key HR functions include recruitment, employee training,
+                    performance evaluations, motivation, fostering communication, ensuring workplace safety, and more.
+                    These elements work together to enhance employee productivity and contribute to achieving the
+                    company’s overall goals and success.<br /> The positive impact of these functions is explored below:
+                </p>
+            </div>
+            <div class="col-lg-12 feature-div"
+                style="padding: 1px 3% 35px; /*display:grid; grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));gap: 30px;*/">
+
+                <div class="feature">
+                    <div class="feature-head">
+                        <img src="images/skill-development-img.png" alt="Skill Development" />
+                    </div>
+                    <div class="feature-detail text-center">
+                        <div class="contentbox">
+                            <h4>Talent Acquisition and Skill Development</h4>
+                            <p>
+                                One of the primary responsibilities of the HR team is to manage the recruitment process.
+                                HR managers design strategies to attract the right candidates for specific roles by
+                                developing clear job criteria. They define the scope of tasks and employee
+                                responsibilities, ensuring the job description aligns with the company’s needs. HR teams
+                                also prepare employee contracts based on these criteria, detailing the expectations and
+                                obligations of both parties. Additionally, HR is responsible for providing ongoing
+                                training, allowing employees to enhance their current skill set or develop new,
+                                specialized skills. This ensures that employees are prepared for advancement and new
+                                roles within the organization, benefiting both the individual and the company.
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="btn btn-danger feature-read-more ">More</div>
+                    </div>
+                </div>
+
+
+                <div class="feature">
+                    <div class="feature-head">
+                        <img src="images/growth-img.png" alt="Growth Assessment" />
+                    </div>
+                    <div class="feature-detail text-center">
+                        <div class="contentbox">
+                            <h4>Performance and Growth Assessment</h4>
+                            <p>
+                                HRM motivates employees to perform to their full potential by providing constructive
+                                feedback and guidance for improvement. The HR team regularly communicates with staff,
+                                discussing performance and clearly defining roles. This clarity helps employees set
+                                achievable goals and perform better. Regular performance appraisals foster motivation
+                                and enhance productivity.
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="btn btn-danger feature-read-more ">More</div>
+                    </div>
+                </div>
+
+
+                <div class="feature">
+                    <div class="feature-head">
+                        <img src="images/working-environment.png" alt="working Environment" />
+                    </div>
+                    <div class="feature-detail text-center">
+                        <div class="contentbox">
+                            <h4>Maintaining a Good Workplace Vibe</h4>
+                            <p>
+                                Creating a positive work environment is a key component of HRM, as it significantly
+                                influences employee performance. A conducive workspace, characterized by safety,
+                                cleanliness, and health, boosts productivity. Additionally, a friendly and supportive
+                                atmosphere fosters job satisfaction and motivates employees to perform at their best.
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="btn btn-danger feature-read-more ">More</div>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-head">
+                        <img src="images/handshake.png" alt="handshake" />
+                    </div>
+                    <div class="feature-detail text-center">
+                        <div class="contentbox">
+                            <h4>Resolving Conflicts</h4>
+                            <p>
+                                In any organization, conflicts between employees and employers are common. In such
+                                cases, the HR department plays a key role as a mediator and advisor, addressing employee
+                                concerns and finding practical solutions. They ensure timely intervention to resolve
+                                issues before they escalate and affect the workplace.
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="btn btn-danger feature-read-more ">More</div>
+                    </div>
+                </div>
+
+                <!-- <%--  <div class="feature">
+                            <div class="feature-head">
+                                <img src="../images/demo2.png" />
+                            </div>
+                            <div class="feature-detail text-center">
+                                <div class="contentbox">
+                                    <h4>Building Strong Public Relations</h4>
+                                    <p>
+                                      HRM plays a crucial role in fostering positive public relations by organizing business meetings, seminars, and official events to strengthen relationships with other industries. Additionally, HR may contribute to the development of business and marketing strategies. A well-established HRM system is essential for smooth organizational operations and long-term success.
+                                    </p>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="btn btn-danger feature-read-more ">More</div>
+                            </div>
+                        </div>--%> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="alternateBG" style="padding-bottom:47px">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center" style="font-weight:600;">Key Aspects of Human Resource Management</h2>
+                <p class="text-center ">
+                    Human Resource Management centers around a company’s most valuable asset—its people. It encompasses
+                    a wide range of functions, each focused on a different facet of employee management. From
+                    recruitment and training to performance tracking and reward systems, HRM ensures that the workforce
+                    is effectively supported, developed, and aligned with organizational goals. <br />These Are the Four
+                    Essential Components of Effective HRM</p>
+            </div>
+            <div class="col-lg-12 feature-div" style="padding: 1px 3% 35px;">
+
+                <div class="feature">
+                    <div class="feature-head">
+                        <img src="images/management.png" alt="Office management" />
+                    </div>
+                    <div class="feature-detail text-center">
+                        <div class="contentbox">
+                            <h4>Corporate Management</h4>
+                            <p>
+                                Organizational management plays a vital role in every business, as it supports the
+                                company's overall structure, employees, and strategic goals. It helps enhance workforce
+                                efficiency and business performance, leading to better customer service and
+                                profitability. Effective organizational management relies on leaders who understand the
+                                challenges the company faces and who can implement tailored solutions. This approach
+                                enables smooth operations, fosters skill development among employees, and ensures
+                                effective HR management, all while addressing key business concerns.
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="btn btn-danger feature-read-more ">More</div>
+                    </div>
+                </div>
+                <div class="feature">
+                    <div class="feature-head">
+                        <img src="images/talent.png" alt="Talent Administration" />
+                    </div>
+                    <div class="feature-detail text-center">
+                        <div class="contentbox">
+                            <h4>Talent Administration</h4>
+                            <p>
+                                Personnel administration, often referred to as human resources, plays a critical role in
+                                any organization. This department is essential because it oversees all employee-related
+                                activities, from recruitment to performance evaluation. The team is responsible for
+                                planning and executing hiring strategies — even down to placing job advertisements.
+                                Beyond recruitment, personnel administration ensures employees are properly onboarded
+                                and trained, though the actual training may be handled by other departments. One of
+                                their key responsibilities is developing employee assessment tools used by managers to
+                                evaluate skills and performance, making this function vital to organizational growth and
+                                employee development.
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="btn btn-danger feature-read-more ">More</div>
+                    </div>
+                </div>
+
+
+                <div class="feature">
+                    <div class="feature-head">
+                        <img src="images/HCM.png" alt="Human Capital Management" />
+                    </div>
+                    <div class="feature-detail text-center">
+                        <div class="contentbox">
+                            <h4>Human Capital Management</h4>
+                            <p>
+                                Manpower management is a specialized branch of human resource management that emphasizes
+                                the recruitment and selection of employees. It plays a critical role in ensuring that
+                                the right talent is brought into an organization by aligning job requirements with
+                                candidate capabilities. Effective manpower planning ensures clear and accurate job
+                                descriptions, enabling businesses to attract suitable applicants. Tools and platforms
+                                like online job portals (e.g., Monster.com) are prime examples of manpower management in
+                                action, offering both job posting functionalities and access to a pool of candidate
+                                resumes, streamlining the hiring process for organizations.
+                            </p>
+                        </div>
+                       
+                        <div class="btn btn-danger feature-read-more">More</div>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-head">
+                        <img src="images/supervision.png" alt="Supervision" />
+                    </div>
+                    <div class="feature-detail text-center">
+                        <div class="contentbox">
+                            <h4>Manufacturing Supervision</h4>
+                            <p>
+                                Industrial management plays a vital role in human resource management by focusing on
+                                employee productivity and operational efficiency. It involves tracking individual
+                                performance as well as monitoring machinery to ensure optimal working conditions. This
+                                dual approach helps identify areas for improvement, boosting overall output and
+                                streamlining workplace operations.
+                            </p>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="btn btn-danger feature-read-more ">More</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,114 @@
+.boxes {
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 380px; */
+}
+.box {
+ 
+  width: calc(25% - 20px);
+  min-width: 265px;
+  box-sizing: border-box;
+  background: #edffe8;
+  margin: 10px;
+  border: 3px solid #edffe8;
+  text-align: center;
+  line-height: 25px;
+  /* padding: 18px; */
+  max-width: 300px;
+  border-radius: 17px;
+  box-shadow: 2px 3px 10px #d8d8d8;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  width: 400px;
+}
+.box:hover {
+  box-shadow: 1px 6px 13px #b5b5b5;
+  /* border-color: #b6b6b6; */
+  /* background-image: linear-gradient(
+      230deg,
+      #143e2d,
+      #03642f); */
+      background-color: #ddf3d6 ;
+      border-color:#ddf3d6 ;
+  transform: scale(1.03);
+}
+
+.box img {
+  max-height: 137px;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.lottie {
+  width: 520px;
+  height: 315px;
+  display: block;
+}
+
+.box img:hover {
+      --tw-scale-x: 1.1;
+    --tw-scale-y: 1.1;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.box .detail {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 2px 10px;
+}
+
+.box .detail h4 {
+  font-weight: bold;
+}
+@media screen and (max-width: 1045px) {
+  .lottie {
+    width: calc(100% - 15px);
+    height: calc(100% - 300px);
+    min-width: 288px;
+    /*min-height: 288px;*/
+  }
+
+  .banner-btn {
+    margin: 20px !important;
+  }
+}
+@media screen and (max-width: 813px) {
+  .top-container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 735px) {
+  .banner-btn {
+    margin: 5px !important;
+  }
+}
+@media  (max-width: 450px) {
+  .banner-btn {
+    margin: 3px !important;
+    width: 113px !important;
+    font-size: 15px !important;
+    height: 45px;
+    padding: 7px !important;
+  }
+  .lottie {
+    min-width: 240px;
+  }
+  .box {
+    min-width: 245px;
+  }
+  h2.text-center {
+    font-size: 22px;
+  }
+  .col-lg-5 h2 {
+    font-size: 24px;
+  }
+}
