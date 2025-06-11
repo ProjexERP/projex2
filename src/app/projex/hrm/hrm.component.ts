@@ -41,7 +41,7 @@ export class HrmComponent implements AfterViewInit, OnInit {
 
   }
   options: AnimationOptions = {
-    path: '/assets/hrm.json',
+    path: 'assets/hrm.json',
     loop: true,
     autoplay: true,
   }
