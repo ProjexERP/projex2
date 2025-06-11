@@ -34,11 +34,21 @@
             ],
             "scripts": [
              "node_modules/popper.js/dist/umd/popper.min.js",
-              "./node_modules/jquery/dist/jquery.min.js",      
+
+              "./node_modules/jquery/dist/jquery.min.js",
+             
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/js/viewportchecker.js",
               "src/js/comman.js"
-            ]
+              
+              
+
+            ],
+            "server": "src/main.server.ts",
+            "outputMode": "server",
+            "ssr": {
+              "entry": "src/server.ts"
+            }
           },
           "configurations": {
             "production": {
