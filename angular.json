@@ -40,12 +40,7 @@
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/js/viewportchecker.js",
               "src/js/comman.js"
-              
-              
-
             ]
-           
-          
           },
           "configurations": {
             "production": {
