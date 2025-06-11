@@ -15,15 +15,15 @@ import { ContactUsComponent } from './projex/contact-us/contact-us.component';
 
 
 export const routes: Routes = [
-  { path: 'angular/index',  component: HomeComponent },
-  { path: 'angular/payroll/index',pathMatch:"full",  component: PayrollComponent },
-  { path: 'angular/product/prodandplan', component: ProdandplanComponent },
-  {path: 'angular/product/Planandpricing', component : PlanandpricingComponent},
-  {path :'angular/manage-account', component:ManageAccountComponent},
-  {path : 'angular/hrm', component:HrmComponent},
-  {path: 'angular/sale-order-management', component:SaleOrderManagementComponent},
-  {path: 'angular/inventory-control-management' , component:InventoryControlManagementComponent},
-  {path: 'angular/contactUs', component:ContactUsComponent}
+  { path: 'index',  component: HomeComponent },
+  { path: 'payroll/index',pathMatch:"full",  component: PayrollComponent },
+  { path: 'product/prodandplan', component: ProdandplanComponent },
+  {path: 'product/Planandpricing', component : PlanandpricingComponent},
+  {path :'manage-account', component:ManageAccountComponent},
+  {path : 'hrm', component:HrmComponent},
+  {path: 'sale-order-management', component:SaleOrderManagementComponent},
+  {path: 'inventory-control-management' , component:InventoryControlManagementComponent},
+  {path: 'contactUs', component:ContactUsComponent}
 ];
 
 @NgModule({
