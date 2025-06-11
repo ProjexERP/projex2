@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/projex/angular/(.*)", "destination": "/projex/angular/index.html" }
+  ]
+}

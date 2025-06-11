@@ -13,6 +13,7 @@ export function playerFactory() {
 }
 
 bootstrapApplication(AppComponent, {
+  
   providers: [
     provideRouter(routes),  provideAnimations(),
     provideLottieOptions({

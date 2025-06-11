@@ -146,7 +146,7 @@ export class HeaderComponent implements OnInit, AfterViewInit {
      window.location.href=window.location.origin+"/projex/faq.aspx";
   }
   contact(){
-    window.location.href=window.location.origin+"/projex/contactUs.aspx";
+    window.location.href=window.location.origin+"/angular/contactUs";
   }
    inventory(){
     window.location.href=window.location.origin+"/angular/inventory-control-management/index";

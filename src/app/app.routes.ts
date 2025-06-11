@@ -9,6 +9,10 @@ import { ManageAccountComponent } from './projex/manage-account/manage-account.c
 import { HrmComponent } from './projex/hrm/hrm.component';
 import { SaleOrderManagementComponent } from './projex/sale-order-management/sale-order-management.component';
 import { InventoryControlManagementComponent } from './projex/inventory-control-management/inventory-control-management.component';
+import { ContactUsComponent } from './projex/contact-us/contact-us.component';
+
+
+
 
 export const routes: Routes = [
   { path: 'angular/index',  component: HomeComponent },
@@ -18,10 +22,12 @@ export const routes: Routes = [
   {path :'angular/manage-account', component:ManageAccountComponent},
   {path : 'angular/hrm', component:HrmComponent},
   {path: 'angular/sale-order-management', component:SaleOrderManagementComponent},
-  {path: 'angular/inventory-control-management' , component:InventoryControlManagementComponent}
+  {path: 'angular/inventory-control-management' , component:InventoryControlManagementComponent},
+  {path: 'angular/contactUs', component:ContactUsComponent}
 ];
 
 @NgModule({
+
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
