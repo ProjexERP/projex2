@@ -1,0 +1,13 @@
+{
+  "routes": {
+    "/projex/contactUs": {},
+    "/projex/hrm": {},
+    "/projex/index": {},
+    "/projex/inventory-control-management": {},
+    "/projex/manage-account": {},
+    "/projex/payroll/index": {},
+    "/projex/product/Planandpricing": {},
+    "/projex/product/prodandplan": {},
+    "/projex/sale-order-management": {}
+  }
+}
