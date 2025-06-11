@@ -15,7 +15,7 @@ import { ContactUsComponent } from './projex/contact-us/contact-us.component';
 
 
 export const routes: Routes = [
-  { path: 'index',  component: HomeComponent },
+  { path: '',  component: HomeComponent },
   { path: 'payroll/index',pathMatch:"full",  component: PayrollComponent },
   { path: 'product/prodandplan', component: ProdandplanComponent },
   {path: 'product/Planandpricing', component : PlanandpricingComponent},
@@ -28,7 +28,7 @@ export const routes: Routes = [
 
 @NgModule({
 
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes , { useHash: false })],
   exports: [RouterModule]
 })
 export class AppRoutes {}
