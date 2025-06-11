@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'https://projexerp.github.io/projex',
+  basePath: '/projex',
   supportedLocales: {
   "en-US": ""
 },

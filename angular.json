@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
              "baseHref": "/projex/",
-            "outputPath": "dist/projex/",
+            "outputPath": "dist/projex",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -42,7 +42,6 @@
               "src/js/comman.js"
               
               
-             
 
             ],
             "server": "src/main.server.ts",
