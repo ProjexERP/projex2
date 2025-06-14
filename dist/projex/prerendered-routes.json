@@ -2,8 +2,10 @@
   "routes": {
     "/projex": {},
     "/projex/contactUs": {},
+    "/projex/erp/selectform-new": {},
     "/projex/hrm": {},
     "/projex/inventory-control-management": {},
+    "/projex/login": {},
     "/projex/manage-account": {},
     "/projex/payroll/index": {},
     "/projex/product/Planandpricing": {},
