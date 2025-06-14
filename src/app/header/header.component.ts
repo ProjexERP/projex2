@@ -10,7 +10,7 @@ declare const $: any;
   standalone: true,
   imports: [RouterModule, CommonModule],
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css', '../../../css/style.css']
+  styleUrls: ['./header.component.css', '../../css/style.css']
 })
 export class HeaderComponent implements OnInit, AfterViewInit {
   username: string | null = null;

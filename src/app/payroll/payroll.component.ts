@@ -15,8 +15,8 @@ declare global {
   templateUrl: './payroll.component.html',
   styleUrls: [
     './payroll.component.css',
-    '../../../css/style.css',
-    '../../../css/animate.css'
+    '../../css/style.css',
+    '../../css/animate.css'
   ]
 })
 export class PayrollComponent implements OnInit, AfterViewInit {

@@ -12,7 +12,7 @@ import { Meta, Title } from '@angular/platform-browser';
   selector: 'app-hrm',
   imports: [LottieComponent],
   templateUrl: './hrm.component.html',
-  styleUrls: ['./hrm.component.css', '../../../css/style.css']
+  styleUrls: ['./hrm.component.css', '../../css/style.css']
 })
 export class HrmComponent implements AfterViewInit, OnInit {
   isBrowser = false;

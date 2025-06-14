@@ -5,7 +5,7 @@ import { Meta, Title } from '@angular/platform-browser';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css', '../../../css/style.css', '../../../css/animate.css']
+  styleUrls: ['./home.component.css', '../../css/style.css', '../../css/animate.css']
 })
 export class HomeComponent implements OnInit {
   isBrowser = false;

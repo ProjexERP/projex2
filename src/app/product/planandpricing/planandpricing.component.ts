@@ -7,7 +7,7 @@ import { Meta, Title } from '@angular/platform-browser';
   selector: 'app-planandpricing',
   imports: [],
   templateUrl: './planandpricing.component.html',
-  styleUrls: ['./planandpricing.component.css', '../../../../css/style.css' , '../../../../css/animate.css']
+  styleUrls: ['./planandpricing.component.css', '../../../css/style.css' , '../../../css/animate.css']
 })
 export class PlanandpricingComponent implements AfterViewInit{
      isBrowser = false;

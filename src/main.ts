@@ -6,6 +6,8 @@ import { provideRouter } from '@angular/router';
 import { routes } from './app/app.routes';
 import { provideLottieOptions } from 'ngx-lottie';
 import player from 'lottie-web';
+import { provideHttpClient, withFetch } from '@angular/common/http';
+
 import { provideAnimations } from '@angular/platform-browser/animations';
 
 export function playerFactory() {
@@ -19,7 +21,7 @@ bootstrapApplication(AppComponent, {
     provideLottieOptions({
       player: playerFactory
     }),
-  
+      provideHttpClient(withFetch()),
   
   ]
 });

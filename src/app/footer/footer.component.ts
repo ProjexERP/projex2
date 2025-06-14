@@ -8,7 +8,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [RouterModule, CommonModule],
   templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css', '../../../css/style.css']
+  styleUrls: ['./footer.component.css', '../../css/style.css']
 })
 export class FooterComponent {
  constructor(@Inject(PLATFORM_ID) private platformId: Object) {}

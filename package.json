@@ -25,6 +25,7 @@
     "express": "^4.18.2",
     "jquery": "^3.7.1",
     "lottie-web": "^5.12.0",
+    "ng-recaptcha": "^13.2.1",
     "ngx-lottie": "^13.0.1",
     "popper.js": "^1.16.1",
     "rxjs": "~7.8.0",
@@ -46,5 +47,19 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "typescript": "~5.7.2"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjexERP/projex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ProjexERP/projex/issues"
+  },
+  "homepage": "https://github.com/ProjexERP/projex#readme"
 }

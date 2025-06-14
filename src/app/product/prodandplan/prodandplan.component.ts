@@ -14,7 +14,7 @@ import { isPlatformBrowser } from '@angular/common';
 @Component({
   selector: 'app-prodandplan',
   templateUrl: './prodandplan.component.html',
-  styleUrls: ['./prodandplan.component.css', '../../../../css/style.css']
+  styleUrls: ['./prodandplan.component.css', '../../../css/style.css']
 })
 export class ProdandplanComponent implements OnInit, AfterViewInit {
   isBrowser = false;

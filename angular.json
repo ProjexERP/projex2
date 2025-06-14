@@ -39,10 +39,8 @@
              
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "src/js/viewportchecker.js",
-              "src/js/comman.js"
-              
-              
-
+              "src/js/comman.js",
+              "src/js/regValidation.js"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",

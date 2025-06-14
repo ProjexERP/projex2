@@ -51,7 +51,7 @@
 }
 
 .banner {
-  background-image: url(/images/background.jpg);
+  background-image: url("/images/background.jpg");
   height: 385px;
   background-position: center;
   background-size: 100% 100%;

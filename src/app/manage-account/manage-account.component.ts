@@ -13,7 +13,7 @@ export function playerFactory() {
   selector: 'app-manage-account',
   imports: [LottieComponent],
   templateUrl: './manage-account.component.html',
-  styleUrls: ['./manage-account.component.css', '../../../css/style.css']
+  styleUrls: ['./manage-account.component.css', '../../css/style.css']
 })
 export class ManageAccountComponent implements OnInit, AfterViewInit {
 
